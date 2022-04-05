@@ -1,0 +1,96 @@
+/* Change Brand Font */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* Change Navigation Color */
+.navbar #myMenu .custom-nav .nav-item a {
+  color: #fff;
+}
+
+
+/* .navbar #myMenu .custom-nav .nav-item a:hover {
+  color: #F0AAB1;
+} */
+
+/*
+.img-overlay{
+  position: relative;
+}
+.asd{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+*/
+
+/* Make Header Image Responsive */
+.back-image {
+  margin-top: 10px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  border-radius: 0px;
+   background-color: rgba(0, 0, 0, 0.856);
+  margin-top: 74px;
+}
+
+
+/* Header Image Sub-Title */
+.font-italic {
+  font-size: 24px;
+}
+
+/* Homepage css*/
+
+
+a {
+  color: black;
+}
+
+.active {
+  color: white;
+  background-image: linear-gradient(to right,  #2798B5 , #44485f  );
+} ;
+ 
+
+a:hover {
+  color: #ffffff;
+}
+
+/* Change Footer Icon Link Color */
+.fi-color {
+  color: #DC3545 ;
+}
+
+fi-color:hover {
+  color: #E994A2;
+}
+
+/* Plus Button for adding New Users Bottom Right */
+.box {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  margin-bottom: 30px;
+}
+
+/* Setting Margin for Welcome to OSMS */
+.mainHeading {
+  margin-top: 50px;
+}
+
+/* Setting Margin and Alignment for Welcome to OSM Mobile View */
+@media only screen and (max-width: 600px) {
+  .myclass {
+    margin-top: 350px;
+    text-align: center;
+  }
+}
